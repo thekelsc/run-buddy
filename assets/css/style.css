@@ -320,6 +320,20 @@ body {
   }
 /* General Utility Formatting End */
 
+/* Service Grid Formatting Start */
+  .service-grid-container {
+    display: grid;
+  }
+  .service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+  }
+
+/* Service Grid Formatting End */
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
   @media screen and (max-width: 980px) {
     header {
